@@ -12,7 +12,6 @@ class Solution:
         return len(count) == len(set(count))
 
 
-assert(Solution().uniqueOccurrences([1,2,2,1,1,3]) == True)
-assert(Solution().uniqueOccurrences([1,2]) == False)
-assert(Solution().uniqueOccurrences([-3,0,1,-3,1,1,1,-3,10,0]) == True)
-
+assert (Solution().uniqueOccurrences([1, 2, 2, 1, 1, 3]) is True)
+assert (Solution().uniqueOccurrences([1, 2]) is False)
+assert (Solution().uniqueOccurrences([-3, 0, 1, -3, 1, 1, 1, -3, 10, 0]) is True)
